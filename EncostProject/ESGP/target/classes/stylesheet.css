@@ -1,0 +1,52 @@
+/* all nodes */
+node {
+    stroke-mode: plain;
+    stroke-color: black;
+    stroke-width: 2px;
+}
+
+/* deviceRouter */
+node.deviceRouter {
+    size: 60px;
+    fill-color: white;
+    stroke-width: 4px;
+}
+
+/* deviceHub/Controller */
+node.deviceHubController {
+    size: 40px;
+    fill-color: orange;
+}
+
+/* deviceLighting */
+node.deviceLighting {
+    size: 40px;
+    fill-color: blue;
+}
+
+/* deviceAppliances */
+node.deviceAppliance {
+    size: 40px;
+    fill-color: pink;
+}
+
+/* deviceWhiteware */
+node.deviceWhiteware {
+    size: 40px;
+    fill-color: green;
+}
+
+/* deviceSendsReceives */
+node.deviceSendsReceives {
+    shape: circle;
+}
+
+/* deviceSends */
+node.deviceSends {
+    shape: diamond;
+}
+
+/* deviceReceives */
+node.deviceReceives {
+    shape: box;
+}
